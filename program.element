@@ -1,0 +1,1 @@
+CREATE flame FIRE 150 70 CREATE aqua WATER 40 60 WHILE ( ATK flame > ATK aqua ) WEAKEN flame 5 BALANCE aqua 10 END STATE flame STATE aqua MIX flame aqua steam STATE steam TRANSFORM steam WATER STATE steam BALANCE steam 50 STRENGTHEN steam 30 STATE steam STATE flame STATE aqua
