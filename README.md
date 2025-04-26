@@ -1,3 +1,48 @@
+# Elementum  
+# Elementum Programming Language  
+
+**Elementum** is a specialized programming language designed for modeling and interacting with elements. Each element has characteristics: type (e.g., FIRE, WATER), attack, and health. The language allows users to create elements, modify their parameters, combine them, and perform various operations, including conditionals and loops. This repository contains the implementation of the Elementum compiler, along with example programs.  
+
+---  
+
+## Key Features  
+
+- **Element Creation**: Define objects with type, attack, and health.  
+- **Element Interaction**: Reactions and combinations of elements to create new ones.  
+- **Conditionals and Loops**: Execute actions based on conditions or repeat operations while a condition is true.  
+- **Flexible Structure**: Easily extend the language syntax for additional tasks.  
+
+---  
+
+## Example Program  
+
+A program in Elementum:  
+
+```plaintext  
+CREATE FIRE flame 20 80  
+CREATE WATER aqua 10 70  
+REACT flame aqua  
+STATE flame  
+STATE aqua  
+IF (HP flame > HP aqua)  
+    TRANSFORM flame EARTH  
+END
+```
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 # Elementum
 # Язык программирования Elementum
 
